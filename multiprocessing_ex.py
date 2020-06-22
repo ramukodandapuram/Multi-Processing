@@ -16,6 +16,7 @@ start = time.perf_counter()
 size = (1000,1000)
 def process_image(img_name):
 # for img_name in img_names:
+	print("Example for Image Processing.")
 	img = Image.open(img_name)
 
 	img = img.filter(ImageFilter.GaussianBlur(15))
